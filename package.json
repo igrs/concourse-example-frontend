@@ -77,7 +77,7 @@
   "jest": { "testResultsProcessor": "./node_modules/jest-html-reporter" },
   "jest-html-reporter": {
 		"pageTitle": "Frontend test suite",
-		"outputPath": "./report/test-report.html",
+		"outputPath": "/tmp/build/put/frontend/report/test-report.html",
 		"includeFailureMsg": true
 	}
 }
