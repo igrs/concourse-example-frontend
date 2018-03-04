@@ -74,10 +74,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "jest": { "testResultsProcessor": "./node_modules/jest-html-reporter" },
-  "jest-html-reporter": {
-		"pageTitle": "Frontend test suite",
-		"outputPath": "/tmp/build/put/frontend/report/test-report.html",
-		"includeFailureMsg": true
-	}
+  "jest": { "testResultsProcessor": "./node_modules/jest-html-reporter" }
 }

@@ -1,5 +1,5 @@
 {
-	"pageTitle": "Concourse example frontend test",
-	"outputPath": "report/index.html",
+	"pageTitle": "Frontend test suite",
+	"outputPath": "/tmp/build/put/frontend/report/test-report.html",
 	"includeFailureMsg": true
 }
