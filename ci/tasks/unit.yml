@@ -20,4 +20,4 @@ run:
   - -exc
   - |
     npm install
-    npm run test
+    npm run unit

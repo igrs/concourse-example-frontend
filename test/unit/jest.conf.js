@@ -26,5 +26,6 @@ module.exports = {
     '!src/main.js',
     '!src/router/index.js',
     '!**/node_modules/**'
-  ]
+  ],
+  testResultsProcessor: path.resolve(__dirname, '../../') + "/node_modules/jest-html-reporter"
 }
