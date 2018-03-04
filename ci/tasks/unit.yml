@@ -11,9 +11,9 @@ inputs:
 - name: frontend
 
 run:
-  path: bash
+  path: sh
   args:
-  - -c
+  - -exc
   - |
     cd frontend
     npm run test
