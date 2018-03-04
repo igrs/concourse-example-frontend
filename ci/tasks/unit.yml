@@ -11,10 +11,10 @@ inputs:
 - name: frontend
 
 run:
+  dir: frontend
   path: sh
   args:
   - -exc
   - |
-    cd frontend
     npm install
     npm run test
