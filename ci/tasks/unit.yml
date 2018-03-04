@@ -10,6 +10,9 @@ image_resource:
 inputs:
 - name: frontend
 
+caches:
+- path: frontend/node_modules
+
 run:
   dir: frontend
   path: sh
