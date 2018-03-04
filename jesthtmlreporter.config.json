@@ -1,0 +1,5 @@
+{
+	"pageTitle": "Concourse example frontend test",
+	"outputPath": "report/index.html",
+	"includeFailureMsg": true
+}
