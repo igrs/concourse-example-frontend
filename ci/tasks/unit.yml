@@ -13,16 +13,15 @@ inputs:
 caches:
 - path: frontend/node_modules
 
-outputs:
-- name: frontend-tested
+#outputs:
+#- name: frontend
 
 run:
-  dir: frontend
   path: sh
   args:
   - -exc
   - |
-    npm install
-    npm run unit
+    npm install --prefix frontend
+    npm run unit --prefix frontend
     pwd
-    ls -l /tmp/build/put/frontend-tested/report
+    ls -l frontend/report
