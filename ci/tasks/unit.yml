@@ -23,4 +23,4 @@ run:
     npm run unit
     pwd
     ls -l report
-    ls -l /tmp/build/put/frontend/
+    ls -l /tmp/build/put/frontend/report
