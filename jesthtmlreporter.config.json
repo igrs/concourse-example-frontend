@@ -1,5 +1,5 @@
 {
 	"pageTitle": "Frontend test suite",
-	"outputPath": "./report/test-report.html",
+	"outputPath": "frontend-tested/report/test-report.html",
 	"includeFailureMsg": true
 }
