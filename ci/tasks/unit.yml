@@ -25,4 +25,4 @@ run:
     npm install
     npm run unit
     pwd
-    ls -l report
+    ls -l /tmp/build/put/frontend-tested/report
