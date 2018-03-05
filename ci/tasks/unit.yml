@@ -24,4 +24,3 @@ run:
     npm install --prefix frontend
     npm run unit --prefix frontend
     pwd
-    find / -name test-report.html
