@@ -13,8 +13,8 @@ inputs:
 caches:
 - path: frontend/node_modules
 
-#outputs:
-#- name: frontend
+outputs:
+- name: report
 
 run:
   path: sh
