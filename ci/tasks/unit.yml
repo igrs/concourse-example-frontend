@@ -13,6 +13,9 @@ inputs:
 caches:
 - path: frontend/node_modules
 
+outputs:
+- name: frontend-tested
+
 run:
   dir: frontend
   path: sh
