@@ -24,4 +24,5 @@ run:
     npm install --prefix frontend
     npm run unit --prefix frontend
     pwd
+    find / -name reports -type d
     ls -l frontend/report
