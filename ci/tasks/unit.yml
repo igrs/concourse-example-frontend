@@ -21,3 +21,5 @@ run:
   - |
     npm install
     npm run unit
+    pwd
+    ls -l frontend/report
