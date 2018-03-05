@@ -14,7 +14,7 @@ caches:
 - path: frontend/node_modules
 
 outputs:
-- name: report
+- name: reports
 
 run:
   path: sh
